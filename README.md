@@ -12,7 +12,7 @@ I have made the use of HashMap and List to store the values...
 {"created_time": "2016-03-28T23:23:12Z", "target": "Caroline-Kaiser-2", "actor": "Amber-Sauer"}<br/>
 {"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}<br/>
 
-HashMap to allot numbers to actor and target:
+HashMap to allot numbers to actor and target:<br/>
 Raffi-Antilian  &nbsp; &nbsp; - &nbsp; &nbsp;  1<br/>
 Amber-Sauer     &nbsp; &nbsp; - &nbsp; &nbsp; 2<br/>
 Caroline-Kaiser-2 &nbsp; &nbsp; - &nbsp; &nbsp;   3<br/>
@@ -31,10 +31,10 @@ Storing all the Transactions in List<Transaction>
 Another HasMap to count the number of links to the actor/target
 
 actor/target  &nbsp; &nbsp;  Link<br/>
-1	&nbsp; &nbsp; &nbsp; &nbsp;1<br/>
-2	&nbsp; &nbsp; &nbsp; &nbsp;3<br/>
-3	&nbsp; &nbsp; &nbsp; &nbsp;1<br/>
-4	&nbsp; &nbsp; &nbsp; &nbsp;1<br/>
+1	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1<br/>
+2	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3<br/>
+3	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1<br/>
+4	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1<br/>
 
 Now checking the status from each transaction to see if the WINDOW_SIZE of 60 sec is fulfilled or not.
 
