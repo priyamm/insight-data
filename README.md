@@ -13,10 +13,10 @@ I have made the use of HashMap and List to store the values...
 {"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}<br/>
 
 HashMap to allot numbers to actor and target:
-Raffi-Antilian  &nbsp&nbsp -&nbsp  1<br/>
-Amber-Sauer     &nbsp -  2<br/>
-Caroline-Kaiser-2-  3<br/>
-charlotte-macfarlane - 4<br/>
+Raffi-Antilian  &nbsp &nbsp - &nbsp &nbsp  1<br/>
+Amber-Sauer     &nbsp &nbsp - &nbsp &nbsp 2<br/>
+Caroline-Kaiser-2 &nbsp &nbsp - &nbsp &nbsp   3<br/>
+charlotte-macfarlane &nbsp &nbsp - &nbsp &nbsp  4<br/>
 
 Created a Transaction class so that we can create a link
 class Transaction{
@@ -30,11 +30,11 @@ Storing all the Transactions in List<Transaction>
 
 Another HasMap to count the number of links to the actor/target
 
-actor/target    Link<br/>
-1		1<br/>
-2		3<br/>
-3		1<br/>
-4		1<br/>
+actor/target  &nbsp &nbsp  Link<br/>
+1	&nbsp &nbsp &nbsp &nbsp	1<br/>
+2	&nbsp &nbsp &nbsp &nbsp	3<br/>
+3	&nbsp &nbsp &nbsp &nbsp	1<br/>
+4	&nbsp &nbsp &nbsp &nbsp	1<br/>
 
 Now checking the status from each transaction to see if the WINDOW_SIZE of 60 sec is fulfilled or not.
 
