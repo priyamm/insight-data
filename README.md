@@ -30,7 +30,7 @@ Storing all the Transactions in List<Transaction>
 
 Another HasMap to count the number of links to the actor/target
 
-actor/target  &nbsp &nbsp  Link<br/>
+actor/target  &nbsp; &nbsp;  Link<br/>
 1	&nbsp &nbsp &nbsp &nbsp	1<br/>
 2	&nbsp &nbsp &nbsp &nbsp	3<br/>
 3	&nbsp &nbsp &nbsp &nbsp	1<br/>
