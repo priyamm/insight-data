@@ -13,7 +13,7 @@ I have made the use of HashMap and List to store the values...
 {"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}<br/>
 
 HashMap to allot numbers to actor and target:
-Raffi-Antilian  &nbsp; -&nbsp;  1<br/>
+Raffi-Antilian  &nbsp&nbsp -&nbsp  1<br/>
 Amber-Sauer     &nbsp -  2<br/>
 Caroline-Kaiser-2-  3<br/>
 charlotte-macfarlane - 4<br/>
