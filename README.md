@@ -8,22 +8,22 @@ If it doesn't run then you might have to open ot in eclipse and run the MedianDe
 I have made the use of HashMap and List to store the values...
 #Explanation below:
 
-{"created_time": "2016-03-28T23:23:12Z", "target": "Raffi-Antilian", "actor": "Amber-Sauer"}
-{"created_time": "2016-03-28T23:23:12Z", "target": "Caroline-Kaiser-2", "actor": "Amber-Sauer"}
-{"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}
+{"created_time": "2016-03-28T23:23:12Z", "target": "Raffi-Antilian", "actor": "Amber-Sauer"}<br/>
+{"created_time": "2016-03-28T23:23:12Z", "target": "Caroline-Kaiser-2", "actor": "Amber-Sauer"}<br/>
+{"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}<br/>
 
 HashMap to allot numbers to actor and target:
-Raffi-Antilian   -  1
-Amber-Sauer      -  2
-Caroline-Kaiser-2-  3
-charlotte-macfarlane - 4
+Raffi-Antilian   -  1<br/>
+Amber-Sauer      -  2<br/>
+Caroline-Kaiser-2-  3<br/>
+charlotte-macfarlane - 4<br/>
 
 Created a Transaction class so that we can create a link
 class Transaction{
-	public Date createdTime;
-	public Integer target;
-	public Integer actor;
-	public Integer status;
+	public Date createdTime;<br/>
+	public Integer target;<br/>
+	public Integer actor;<br/>
+	public Integer status;<br/>
 }
 
 Storing all the Transactions in List<Transaction>
@@ -31,10 +31,10 @@ Storing all the Transactions in List<Transaction>
 Another HasMap to count the number of links to the actor/target
 
 actor/target    Link
-1		1
-2		3
-3		1
-4		1
+1		1<br/>
+2		3<br/>
+3		1<br/>
+4		1<br/>
 
 Now checking the status from each transaction to see if the WINDOW_SIZE of 60 sec is fulfilled or not.
 
