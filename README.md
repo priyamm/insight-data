@@ -13,8 +13,8 @@ I have made the use of HashMap and List to store the values...
 {"created_time": "2016-03-28T23:23:12Z", "target": "charlotte-macfarlane", "actor": "Amber-Sauer"}<br/>
 
 HashMap to allot numbers to actor and target:
-Raffi-Antilian   -  1<br/>
-Amber-Sauer      -  2<br/>
+Raffi-Antilian  &nbsp; -&nbsp;  1<br/>
+Amber-Sauer     &nbsp -  2<br/>
 Caroline-Kaiser-2-  3<br/>
 charlotte-macfarlane - 4<br/>
 
@@ -30,7 +30,7 @@ Storing all the Transactions in List<Transaction>
 
 Another HasMap to count the number of links to the actor/target
 
-actor/target    Link
+actor/target    Link<br/>
 1		1<br/>
 2		3<br/>
 3		1<br/>
